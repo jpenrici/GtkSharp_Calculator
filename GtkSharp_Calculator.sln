@@ -1,0 +1,53 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathCalc_NUnitTest", "NUnitTestMathCalc\MathCalc_NUnitTest.csproj", "{DFDA0298-AD72-46EC-AC6C-A29904C12228}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorGui", "CalculatorGui\CalculatorGui.csproj", "{7A2DC7F2-341A-47B0-99AE-730A4AA59D65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathCalc", "MathCalc\MathCalc.csproj", "{3203B24E-6FCA-4EFD-8B3A-E2097A74C40D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorGui_NUnitTest", "NUnitTestCalculatorGui\CalculatorGui_NUnitTest.csproj", "{B835CF1A-FBC6-4BEE-A727-ABB94317C529}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFDA0298-AD72-46EC-AC6C-A29904C12228}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFDA0298-AD72-46EC-AC6C-A29904C12228}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFDA0298-AD72-46EC-AC6C-A29904C12228}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFDA0298-AD72-46EC-AC6C-A29904C12228}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFDA0298-AD72-46EC-AC6C-A29904C12228}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DFDA0298-AD72-46EC-AC6C-A29904C12228}.Debug|x86.Build.0 = Debug|Any CPU
+		{DFDA0298-AD72-46EC-AC6C-A29904C12228}.Release|x86.ActiveCfg = Release|Any CPU
+		{DFDA0298-AD72-46EC-AC6C-A29904C12228}.Release|x86.Build.0 = Release|Any CPU
+		{7A2DC7F2-341A-47B0-99AE-730A4AA59D65}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{7A2DC7F2-341A-47B0-99AE-730A4AA59D65}.Debug|Any CPU.Build.0 = Debug|x86
+		{7A2DC7F2-341A-47B0-99AE-730A4AA59D65}.Release|Any CPU.ActiveCfg = Release|x86
+		{7A2DC7F2-341A-47B0-99AE-730A4AA59D65}.Release|Any CPU.Build.0 = Release|x86
+		{7A2DC7F2-341A-47B0-99AE-730A4AA59D65}.Debug|x86.ActiveCfg = Debug|x86
+		{7A2DC7F2-341A-47B0-99AE-730A4AA59D65}.Debug|x86.Build.0 = Debug|x86
+		{7A2DC7F2-341A-47B0-99AE-730A4AA59D65}.Release|x86.ActiveCfg = Release|x86
+		{7A2DC7F2-341A-47B0-99AE-730A4AA59D65}.Release|x86.Build.0 = Release|x86
+		{3203B24E-6FCA-4EFD-8B3A-E2097A74C40D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3203B24E-6FCA-4EFD-8B3A-E2097A74C40D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3203B24E-6FCA-4EFD-8B3A-E2097A74C40D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3203B24E-6FCA-4EFD-8B3A-E2097A74C40D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3203B24E-6FCA-4EFD-8B3A-E2097A74C40D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3203B24E-6FCA-4EFD-8B3A-E2097A74C40D}.Debug|x86.Build.0 = Debug|Any CPU
+		{3203B24E-6FCA-4EFD-8B3A-E2097A74C40D}.Release|x86.ActiveCfg = Release|Any CPU
+		{3203B24E-6FCA-4EFD-8B3A-E2097A74C40D}.Release|x86.Build.0 = Release|Any CPU
+		{B835CF1A-FBC6-4BEE-A727-ABB94317C529}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B835CF1A-FBC6-4BEE-A727-ABB94317C529}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B835CF1A-FBC6-4BEE-A727-ABB94317C529}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B835CF1A-FBC6-4BEE-A727-ABB94317C529}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B835CF1A-FBC6-4BEE-A727-ABB94317C529}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B835CF1A-FBC6-4BEE-A727-ABB94317C529}.Debug|x86.Build.0 = Debug|Any CPU
+		{B835CF1A-FBC6-4BEE-A727-ABB94317C529}.Release|x86.ActiveCfg = Release|Any CPU
+		{B835CF1A-FBC6-4BEE-A727-ABB94317C529}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

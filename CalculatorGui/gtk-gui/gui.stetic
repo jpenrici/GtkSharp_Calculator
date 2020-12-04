@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stetic-interface>
+  <configuration>
+    <images-root-path>..</images-root-path>
+  </configuration>
+  <import>
+    <widget-library name="../bin/Debug/CalculatorGui.exe" internal="true" />
+  </import>
+  <widget class="Gtk.Window" id="MainWindow" design-size="522 237">
+    <property name="MemberName" />
+    <property name="Title" translatable="yes">Expression Calculator</property>
+    <property name="WindowPosition">CenterOnParent</property>
+    <signal name="DeleteEvent" handler="OnDeleteEvent" />
+    <child>
+      <widget class="Gtk.VBox" id="vbox1">
+        <property name="MemberName" />
+        <property name="Tooltip" translatable="yes" />
+        <property name="Spacing">6</property>
+        <child>
+          <widget class="Gtk.ScrolledWindow" id="GtkScrolledWindow">
+            <property name="MemberName" />
+            <property name="ShadowType">In</property>
+            <child>
+              <widget class="Gtk.TextView" id="txtConsole">
+                <property name="MemberName" />
+                <property name="HeightRequest">25</property>
+                <property name="Tooltip" translatable="yes" />
+                <property name="CanFocus">True</property>
+                <property name="ShowScrollbars">True</property>
+                <property name="AcceptsTab">False</property>
+                <property name="Text" translatable="yes" />
+                <property name="WrapMode">Char</property>
+                <property name="PixelsAboveLines">5</property>
+                <property name="PixelsBelowLines">5</property>
+                <property name="LeftMargin">5</property>
+                <property name="RightMargin">5</property>
+                <property name="Indent">5</property>
+              </widget>
+            </child>
+          </widget>
+          <packing>
+            <property name="Position">0</property>
+            <property name="AutoSize">True</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="lblResult">
+            <property name="MemberName" />
+            <property name="Tooltip" translatable="yes" />
+            <property name="Xpad">10</property>
+            <property name="Xalign">0</property>
+            <property name="LabelProp" translatable="yes">=</property>
+            <property name="Selectable">True</property>
+          </widget>
+          <packing>
+            <property name="Position">1</property>
+            <property name="AutoSize">True</property>
+            <property name="Expand">False</property>
+            <property name="Fill">False</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="lblMessage">
+            <property name="MemberName" />
+            <property name="Xpad">5</property>
+          </widget>
+          <packing>
+            <property name="Position">2</property>
+            <property name="AutoSize">True</property>
+            <property name="Expand">False</property>
+            <property name="Fill">False</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.HBox" id="hbox3">
+            <property name="MemberName" />
+            <property name="Spacing">6</property>
+            <child>
+              <widget class="Gtk.Button" id="btnClear">
+                <property name="MemberName" />
+                <property name="CanFocus">True</property>
+                <property name="Type">TextOnly</property>
+                <property name="Label" translatable="yes">Clear</property>
+                <property name="UseUnderline">True</property>
+                <signal name="Clicked" handler="Clear" />
+              </widget>
+              <packing>
+                <property name="Position">0</property>
+                <property name="AutoSize">False</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.Button" id="btnCalc">
+                <property name="MemberName" />
+                <property name="CanFocus">True</property>
+                <property name="Type">TextOnly</property>
+                <property name="Label" translatable="yes">Calc</property>
+                <property name="UseUnderline">True</property>
+                <signal name="Clicked" handler="Calc" />
+              </widget>
+              <packing>
+                <property name="Position">1</property>
+                <property name="AutoSize">False</property>
+              </packing>
+            </child>
+          </widget>
+          <packing>
+            <property name="Position">3</property>
+            <property name="AutoSize">True</property>
+            <property name="Expand">False</property>
+            <property name="Fill">False</property>
+          </packing>
+        </child>
+      </widget>
+    </child>
+  </widget>
+</stetic-interface>
