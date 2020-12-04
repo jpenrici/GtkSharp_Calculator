@@ -18,6 +18,10 @@ Desenvolvido em <b>GTK# 2.0</b> e <b>Mono</b>.</br>
 
 - NUnit.3.12.0
 
+## Display
+
+![display](https://github.com/jpenrici/GtkSharp_Calculator/blob/main/Display/display.png)
+
 ## Referências
 
 [Mono](https://www.mono-project.com/) : mono-project.com</br>
